@@ -197,6 +197,33 @@ main .main-container hr{
   margin: auto;
 }
 
-
+/* Second Row Layout */
+main .main-container .second-row {
+  width: 82%;
+  margin: 0% auto;
+}
+main .main-container .second-row .col{
+  width: 48%;
+  float: left;
+  margin-left: 1%;
+  padding: 2% 1%;
+}
+main .main-container .second-row .col .image-wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
+main .main-container .second-row .col .text{
+  margin: 5% 0;
+}
+main .main-container .second-row .col .text h2{
+  font-size: 30px;
+  margin: 5% 0;
+}
+main .main-container .second-row .col .text p{
+  font-size: 20px;
+  color: gray;
+  margin: 5% 0;
+}
+/* End Second Row Layout */
 
 /** END MAIN **/
