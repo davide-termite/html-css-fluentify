@@ -5,3 +5,117 @@
   box-sizing: border-box;
 }
 /* End Reset */
+
+/* General Rules */
+body {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: -0.2px;
+  font-weight: 300;
+}
+ul {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+.content {
+  width: 82%;
+  margin: 0 auto;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* End General Rules */
+
+/** HEADER **/
+/* Container Layout */
+header {
+  width: 100%;
+  background: #0c325a;
+  background-image: url("../img/background-header.png");
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: 112% 100%;
+}
+header .content {
+  height: 80vh;
+  position: relative;
+}
+/* End Container Layout */
+/* Navbar */
+header .content div{
+  float: left;
+  padding-top: 1%;
+}
+header .content nav.logo{
+  width: 15%;
+  /* background: yellow; */
+}
+header .content nav.left{
+  /* background: blue; */
+  width: 45%;
+}
+header .content nav.right{
+  width: 40%;
+  text-align: right;
+}
+header .content .nav .menu li{
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 3%;
+  text-transform: uppercase;
+  padding: 0 11px;
+}
+header .content .nav .menu li a.login {
+  padding: 7px 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+header .content .nav .menu li a.button {
+  padding: 7px 7px;
+  border: 1px solid #7cbc02;
+  background-color: #7cbc02;
+  border-radius: 5px;
+}
+header .content .nav .menu li a.button:hover {
+  border: 1px solid orange;
+  background-color: orange;
+  transition: 0.3s;
+  padding: 10px;
+}
+/* End Navbar */
+
+/* Hero Text */
+header .content .text {
+  float: left;
+}
+header .content .text h1{
+  font-size: 60px;
+  color: white;
+  margin: 14% 0;
+}
+header .content .text a.cta{
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  padding: 20px 25px;
+  border: 1px solid #7cbc02;
+  background-color: #7cbc02;
+  border-radius: 5px;
+}
+header .content .text a.cta:hover{
+  border: 1px solid orange;
+  background-color: orange;
+  transition: 0.3s;
+}
+/* End Hero Text */
+/** END HEADER **/
+
+/** MAIN **/
+
+/** END MAIN **/
