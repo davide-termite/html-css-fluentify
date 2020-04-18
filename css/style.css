@@ -41,7 +41,7 @@ header {
   background-position: 112% 100%;
 }
 header .content {
-  height: 80vh;
+  padding-bottom: 8%;
   position: relative;
 }
 /* End Container Layout */
@@ -50,15 +50,15 @@ header .content div{
   float: left;
   padding-top: 1%;
 }
-header .content nav.logo{
+header .content nav .logo{
   width: 15%;
   /* background: yellow; */
 }
-header .content nav.left{
+header .content nav .left{
   /* background: blue; */
   width: 45%;
 }
-header .content nav.right{
+header .content nav .right{
   width: 40%;
   text-align: right;
 }
@@ -117,5 +117,86 @@ header .content .text a.cta:hover{
 /** END HEADER **/
 
 /** MAIN **/
+/* Fixed Button */
+#float-button{
+  padding: 10px;
+  background: #7cbc02;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  border: 1px solid #7cbc02;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  right: 14%;
+  bottom: 0;
+}
+#float-button:hover {
+  border: 1px solid orange;
+  background-color: orange;
+  transition: 0.3s;
+}
+/* End Fixed Button */
+
+/* Sub-hero */
+main .main-container .sub-hero{
+  background: lightgray;
+  text-align: center;
+  padding: 1.5%;
+}
+main .main-container .sub-hero h3{
+  font-size: 25px;
+}
+main .main-container .sub-hero p{
+  font-size: 20px;
+  padding: 10px;
+  color:
+}
+/* End Sub-hero */
+
+/* First Row Layout */
+main .main-container .first-row {
+  width: 82%;
+  margin: 0% auto;
+}
+main .main-container .first-row .col{
+  width: 32%;
+  float: left;
+  margin-left: 1%;
+  padding: 2% 1%;
+}
+main .main-container .first-row .col .image-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  height: 200px;
+}
+main .main-container .first-row .col .image-wrapper img{
+  height: 160px;
+}
+main .main-container .first-row .col .text h2{
+  text-align: center;
+  font-size: 25px;
+  color: #7cbc02;
+  padding: 5% 0;
+  height: 100px;
+}
+main .main-container .first-row .col .text hr{
+  width: 50%;
+  margin: auto;
+}
+main .main-container .first-row .col .text p{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 15px;
+  color: gray;
+}
+/* End First Row Layout */
+main .main-container hr{
+  width: 90%;
+  margin: auto;
+}
+
+
 
 /** END MAIN **/
